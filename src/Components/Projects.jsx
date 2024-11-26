@@ -1,7 +1,7 @@
 import "./styles/projects.css";
 import content from "./Content";
 import { useState } from "react";
-// import Creation from "./Creation";
+import Creation from "./Creation";
 import cssLogo from "../images/css-3.svg";
 import jsLogo from "../images/jsLogo.png";
 import reactLogo from "../images/react-native-1.svg";
@@ -58,7 +58,7 @@ export default function Projects() {
 
       {/* shows the details of the project the user clicks on
                 if show more is true then render the creation component */}
-      {/* {showMore ? (
+      {showMore ? (
         <Creation
           title={prjInFocus.title}
           description={prjInFocus.description}
@@ -71,7 +71,7 @@ export default function Projects() {
           gitLink={prjInFocus.gitLink}
           onClose={handleShowMore}
         />
-      ) : null} */}
+      ) : null}
     </div>
   );
 }

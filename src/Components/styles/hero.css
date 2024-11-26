@@ -1,149 +1,135 @@
+.hero-content {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "hello portrait"
+    "name portrait"
+    "seeking portrait"
+    "updated portrait"
+    "link-group link-group";
+  padding-top: 10rem;
 
-
-
-.hero-content{
-  width:100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "hello portrait"
-        "name portrait"
-        "seeking portrait"
-        "updated portrait"
-        "link-group link-group";
-    padding-top: 10rem;
-
-    column-gap: 10%;
-    height:70vh;
-    scroll-snap-align: start;
-    color:white;
-    align-items: end;
-    justify-content: center;
-        /* Media query for smaller screens */
-        @media (max-width: 768px) {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          margin:0 !important;
-      
-      }
-
+  column-gap: 10%;
+  height: 70vh;
+  scroll-snap-align: start;
+  color: white;
+  align-items: end;
+  justify-content: center;
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 !important;
+    padding-bottom: 2rem;
+  }
 }
-.intro{
-    margin-left: 50%;
-    width: 100%; /* Ensures the text block takes the full width of the column */
-    overflow-wrap: break-word; /* Breaks words to prevent overflow */
-    width:max-content;
-    display: inline-block;
-    padding-bottom: 1rem;
-            /* Media query for smaller screens */
-            @media (max-width: 768px) {
- 
-              margin:0;
-          }
+.intro {
+  margin-left: 50%;
+  width: 100%; /* Ensures the text block takes the full width of the column */
+  overflow-wrap: break-word; /* Breaks words to prevent overflow */
+  width: max-content;
+  display: inline-block;
+  padding-bottom: 1rem;
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 }
 
- .hello{
-    grid-area: hello;
-    font-weight: 700;
-    margin:0;
-    font-size: 6rem;
-  
-   
-   letter-spacing: 2px;
-    animation: bounce 1s ease-in-out;
+.hello {
+  grid-area: hello;
+  font-weight: 700;
+  margin: 0;
+  font-size: 6rem;
+
+  letter-spacing: 2px;
+  animation: bounce 1s ease-in-out;
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) scale(1);
-
   }
   50% {
     transform: translateY(-10px) scale(1.2);
-
-
   }
 }
-.name, .last-updated, .currently-seeking{
-    margin:0;
-    margin-right: 3rem;
-            /* Media query for smaller screens */
-            @media (max-width: 768px) {
-              margin:0;
-              font-size: 1.5em !important;
-          
-          }
-    
+.name,
+.last-updated,
+.currently-seeking {
+  margin: 0;
+  margin-right: 3rem;
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    margin: 0;
+    font-size: 1.5em !important;
+  }
 }
-.name{
-    grid-area: name;
-    font-size: 3.75rem;
-    letter-spacing: 2px;
-    
+.name {
+  grid-area: name;
+  font-size: 3.75rem;
+  letter-spacing: 2px;
 }
-.currently-seeking{
-    grid-area: seeking;
-    grid-area: name;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    color:var(--secondary-color);
-    display:inline-block;
-
+.currently-seeking {
+  grid-area: seeking;
+  grid-area: name;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+  display: inline-block;
 }
-.last-updated{
-    grid-area: updated;   
-     font-size: 1rem;
-     color: var(--grey-color);
-
-
+.last-updated {
+  grid-area: updated;
+  font-size: 1rem;
+  color: var(--grey-color);
 }
 
-.portfolio-pic{
+.portfolio-pic {
   grid-area: portrait;
   margin-left: 5rem;
   outline: 2px solid white;
   /* Media query for smaller screens */
   @media (max-width: 768px) {
-    margin:0;
-}
-
+    margin: 0;
+  }
 }
 
 .caret {
-    color:white;
-    animation: blink 0.7s infinite alternate;
-  }
-  
-  @keyframes blink {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-  .role{
-    display:inline-block;
-  }
-.link-group{
-    grid-area: link-group;
-    grid-column: 2; /* Align the link group under the portrait */
-    display: flex;
-    gap: 3.5rem;
-    width: max-content;
-    margin-left: 5rem;
-    padding-bottom: 8rem;
-    transform: scale(1.5);
-    transform-origin: center left ;
-    @media (max-width: 768px) {
-      margin-left:0 !important;
-      transform: none; /* Remove the transformation */
-      padding: 0;
-  }
-}
-.link-group a{
-    color:white;
+  color: white;
+  animation: blink 0.7s infinite alternate;
 }
 
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.role {
+  display: inline-block;
+}
+.link-group {
+  grid-area: link-group;
+  grid-column: 2; /* Align the link group under the portrait */
+  display: flex;
+  gap: 3.5rem;
+  width: max-content;
+  margin-left: 5rem;
+  padding-bottom: 8rem;
+  transform: scale(1.5);
+  transform-origin: center left;
+  @media (max-width: 768px) {
+    margin-left: 0 !important;
+    transform: none; /* Remove the transformation */
+    padding: 0;
+  }
+}
+.link-group a {
+  color: white;
+}

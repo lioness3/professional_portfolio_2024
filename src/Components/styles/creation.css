@@ -1,0 +1,102 @@
+.creation-section {
+  background-color: var(--white-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(--shadow-color);
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  /* shifts the element by half its width and height, effectively centering it */
+  transform: translate(-50%, -50%);
+  height: max-content;
+  width: 70vw;
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  align-items: center;
+}
+.prj-card {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  margin: 2px;
+  height: max-content;
+  width: 90%;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+.prj-title {
+  flex-grow: 1; /* Make the title take up available space */
+  text-align: center; /* Center the title text */
+  font-size: 3rem;
+  margin: 0;
+}
+.git-link-container {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  gap: 0.75rem;
+  padding-block: 0.5rem;
+  color: var(--grey-color);
+}
+.prj-header {
+  margin: 0;
+  font-size: 1rem;
+  align-self: start;
+  color: var(--grey-color);
+  padding: 0;
+}
+.prj-content {
+  padding: 0rem 1rem;
+}
+.close-btn {
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem;
+  color: var(--grey-color);
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creation-video {
+  width: 40vw;
+  background-color: var(--grey-color);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.inline-info {
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr;
+  column-gap: 1rem;
+}
+
+.color-palette-cont {
+  display: flex;
+  gap: 0.5rem;
+  justify-items: start;
+  flex-wrap: wrap; /* Allows color blocks to wrap to next line */
+}
+
+.color-block {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid lightgray;
+}
+.tech-used {
+  height: 2rem;
+  width: fit-content;
+}
+.tech-container {
+  display: flex;
+
+  gap: 0.5rem; /* Add spacing between images (optional) */
+}
+.wire-frame {
+  height: 1.25rem;
+}
