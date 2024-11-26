@@ -1,0 +1,165 @@
+.projects-section {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  position: relative;
+  place-items: center;
+  height: 90vh;
+  scroll-snap-align: start;
+  overflow: hidden;
+}
+.logo-background-container {
+  display: flex;
+  position: absolute;
+  top: -1rem;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100%;
+}
+.flying-image {
+  z-index: -1;
+  animation: fall 30s infinite ease-in-out;
+  height: 5rem;
+  opacity: 0;
+  filter: drop-shadow(0px 0px 40px rgba(254, 254, 254, 0.4)) grayscale(90%);
+}
+
+.flying-image:nth-child(1) {
+  animation-delay: 6.7s;
+}
+.flying-image:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.flying-image:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.flying-image:nth-child(4) {
+  animation-delay: 4.2s;
+}
+.flying-image:nth-child(5) {
+  animation-delay: 3s;
+}
+.flying-image:nth-child(6) {
+  animation-delay: 5.8s;
+}
+.flying-image:nth-child(7) {
+  animation-delay: 2.5s;
+}
+.flying-image:nth-child(8) {
+  animation-delay: 3.1s;
+}
+
+/* next image needs 7+ sec delay  */
+@keyframes fall {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(90vh) translateX(20px);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateX(400px) translateY(0);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+}
+
+.projects-track {
+  display: flex; /* Make the track a flex container */
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center the cards vertically */
+  row-gap: 1rem;
+  border-radius: 1rem;
+  padding: 3rem;
+  height: max-content;
+  width: max-content;
+  position: relative;
+  background: black;
+}
+/* used for glow gradient */
+.projects-track::before,
+.projects-track::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -0.1rem; /* makes the element match the project track with a top, left, bottom, right at 0. -.5 to give it a border */
+  background: conic-gradient(
+    from var(--gradient-angle),
+    white,
+    var(--primary-color),
+    var(--primary-color),
+    white
+  );
+  border-radius: inherit;
+  animation: rotation 10s linear infinite;
+}
+.projects-track::after {
+  filter: blur(1rem);
+}
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+.prjs-card {
+  height: max-content;
+  width: 35rem;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  border-radius: var(--border-radius);
+  background-color: #f0f0f021;
+  z-index: 3;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  box-shadow: 0px 0px 5px var(--button-color);
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    width: 75vw;
+    padding: 0;
+  }
+}
+.prjs-card:hover {
+  transform: scale(1.15); /* Slightly enlarge the card */
+  border: 2px solid white;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(100%, 100%);
+  }
+
+  100% {
+    transform: translate(0vw, 0vh);
+  }
+}
+.prj-card-title {
+  color: white;
+  margin: 0;
+  text-align: start;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+}
+.logo-img {
+  height: 1.5rem;
+  width: fit-content;
+}
+
+.logo-group {
+  text-align: right;
+}
