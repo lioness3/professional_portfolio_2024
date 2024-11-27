@@ -1,0 +1,237 @@
+.about-section {
+  background-image: url("/src/images/hireMe.png");
+  height: 90vh;
+  scroll-snap-align: start;
+  overflow: hidden;
+  align-content: center;
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (max-width: 1187px) {
+    background-image: url("/src/images/low-poly-grid-haikei.svg");
+    place-items: center;
+  }
+}
+
+.about-track {
+  display: grid;
+  overflow-y: scroll;
+  gap: 10rem;
+  padding-bottom: 15rem;
+  padding-top: 5rem;
+  height: 20vh;
+  width: 100%;
+  outline: 3px solid yellow;
+  justify-content: left;
+  @media (max-width: 1187px) {
+    width: 100vw;
+    justify-content: center;
+  }
+}
+.about-card {
+  height: max-content;
+  width: 30rem;
+  position: relative;
+  top: 2rem;
+  background: linear-gradient(
+    to bottom right,
+    rgba(240, 241, 252, 0.5),
+    rgba(255, 255, 255, 0.339)
+  );
+  text-align: center;
+  backdrop-filter: blur(7px);
+  border-radius: var(--border-radius);
+  padding: 4rem 2rem;
+  box-shadow: 0px 0rem 2rem var(--shadow-color);
+  color: rgba(0, 0, 0, 0.876);
+  z-index: 3;
+  border: 2px solid rgba(237, 235, 235, 0.129);
+  text-shadow: 0px 1px 1.5rem rgb(253, 250, 250);
+  overflow: hidden;
+}
+.about-card:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  background: linear-gradient(
+    to bottom right,
+    rgba(240, 241, 252, 0.9),
+    rgba(255, 255, 255, 0.339)
+  );
+}
+
+.sm-heading {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  font-style: italic;
+}
+/* large heading and med text margin left need to match  */
+.lg-heading {
+  font-size: 5rem;
+  margin: 0;
+  font-weight: 900;
+  line-height: 80%;
+}
+.med-text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  font-style: italic;
+}
+.keyword-link {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.animated-text {
+  width: max-content;
+  margin: auto;
+  @media (max-width: 1187px) {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; /* For older WebKit browsers */
+    animation: gradient-animation 5s infinite forwards ease;
+  }
+}
+.animated-text:hover {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit browsers */
+  animation: gradient-animation 3s infinite forwards ease;
+}
+
+@keyframes gradient-animation {
+  0%,
+  100% {
+    background-image: linear-gradient(
+      to right,
+      red,
+      orange,
+      yellow,
+      green,
+      blue
+    );
+  }
+  20% {
+    background-image: linear-gradient(
+      to right,
+      orange,
+      yellow,
+      green,
+      blue,
+      red
+    );
+  }
+  40% {
+    background-image: linear-gradient(
+      to right,
+      yellow,
+      green,
+      blue,
+      red,
+      orange
+    );
+  }
+  60% {
+    background-image: linear-gradient(
+      to right,
+      green,
+      blue,
+      red,
+      orange,
+      yellow
+    );
+  }
+  80% {
+    background-image: linear-gradient(
+      to right,
+      blue,
+      red,
+      orange,
+      yellow,
+      green
+    );
+  }
+}
+.dwnld-text {
+  text-decoration: none;
+}
+
+.back-text {
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-style: italic;
+  padding-left: 2rem;
+}
+.back-heading {
+  font-size: 2rem;
+  padding-left: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.construction-text {
+  color: rgb(77, 4, 4);
+  bottom: 0;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0;
+  text-align: right;
+}
+.construction {
+  position: relative;
+}
+.construction img {
+  animation: slide-in 10s ease-out infinite;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  z-index: -1;
+}
+
+.cat-img {
+  text-align: center;
+  border-radius: var(--border-radius);
+}
+.cat-img img {
+  height: 13rem;
+  text-align: center;
+  border-radius: var(--border-radius);
+  box-shadow: 0px 0px 50px white;
+}
+
+.dwnld-text {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  font-style: italic;
+  padding-left: 2rem;
+}
+.dwnld-text a,
+.contact-me a {
+  text-decoration: none;
+}
+
+@keyframes slide-in {
+  0% {
+    translate: 100vw 0;
+  }
+
+  100% {
+    translate: -40vw 0;
+  }
+}
+.contact-link-group {
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  margin-left: 2rem;
+  justify-content: left;
+  transform: translateY(2rem);
+}
+.contact-link-group a {
+  color: white;
+}

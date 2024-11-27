@@ -2,6 +2,7 @@ import Hero from "./Components/Hero";
 import Header from "./Components/Header";
 import Projects from "./Components/Projects";
 import "./styles.css";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </div>
       <div className="scroll-section">
         <Header content={"About"} color={"white"} />
+        <About />
       </div>
     </div>
   );
