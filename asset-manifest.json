@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7b9a65b.css",
+    "main.js": "/static/js/main.1ed98d1b.js",
+    "static/js/453.343a9aeb.chunk.js": "/static/js/453.343a9aeb.chunk.js",
+    "static/media/hireMe.png": "/static/media/hireMe.16e0c4e4b0edb404ce83.png",
+    "static/media/shadow.jpg": "/static/media/shadow.24b2c9b86094e3dd58f1.jpg",
+    "static/media/truck.png": "/static/media/truck.abded4a1d7274a5fabd0.png",
+    "static/media/headshot.png": "/static/media/headshot.5eb2a7de07332e6c73f9.png",
+    "static/media/jsLogo.png": "/static/media/jsLogo.cf7522f436d6510da302.png",
+    "static/media/Resume_JoannCarter_Nov24.pdf": "/static/media/Resume_JoannCarter_Nov24.540003b25cb7d350984e.pdf",
+    "static/media/react-native-1.svg": "/static/media/react-native-1.55360266b3781dae00a5a77c8916f82d.svg",
+    "static/media/jquery.svg": "/static/media/jquery.745135a2344027edb4d7aaf705440c6b.svg",
+    "static/media/low-poly-grid-haikei.svg": "/static/media/low-poly-grid-haikei.be6f5c03fecb074d9036.svg",
+    "static/media/wix.svg": "/static/media/wix.f83003bf07cd24e146bfcf51968655da.svg",
+    "static/media/docker.svg": "/static/media/docker.47a900dbbbbe13dbe7c3171049ec68c8.svg",
+    "static/media/java.svg": "/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
+    "static/media/github.svg": "/static/media/github.374e3084ff21dc3bf5335cdd22e7edc8.svg",
+    "static/media/python.svg": "/static/media/python.a3234e7b1423b66cd5dbe9d2a3a17c6d.svg",
+    "static/media/html-5.svg": "/static/media/html-5.e248da514edac2a2a66bde8fa0166701.svg",
+    "index.html": "/index.html",
+    "static/media/css-3.svg": "/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "main.c7b9a65b.css.map": "/static/css/main.c7b9a65b.css.map",
+    "main.1ed98d1b.js.map": "/static/js/main.1ed98d1b.js.map",
+    "453.343a9aeb.chunk.js.map": "/static/js/453.343a9aeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7b9a65b.css",
+    "static/js/main.1ed98d1b.js"
+  ]
+}
