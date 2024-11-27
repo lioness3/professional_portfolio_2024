@@ -22,7 +22,6 @@
   padding-top: 5rem;
   height: 20vh;
   width: 100%;
-  outline: 3px solid yellow;
   justify-content: left;
   @media (max-width: 1187px) {
     width: 100vw;
@@ -178,7 +177,6 @@
   font-weight: 600;
   font-style: italic;
   margin: 0;
-  text-align: right;
 }
 .construction {
   position: relative;
