@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional_portfolio_2024/static/css/main.3aa23e5d.css",
-    "main.js": "/professional_portfolio_2024/static/js/main.5926c756.js",
+    "main.css": "/professional_portfolio_2024/static/css/main.a4110c0e.css",
+    "main.js": "/professional_portfolio_2024/static/js/main.f9dfba13.js",
     "static/js/453.343a9aeb.chunk.js": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js",
     "static/media/hireMe.png": "/professional_portfolio_2024/static/media/hireMe.16e0c4e4b0edb404ce83.png",
     "static/media/shadow.jpg": "/professional_portfolio_2024/static/media/shadow.24b2c9b86094e3dd58f1.jpg",
@@ -20,12 +20,12 @@
     "static/media/html-5.svg": "/professional_portfolio_2024/static/media/html-5.e248da514edac2a2a66bde8fa0166701.svg",
     "index.html": "/professional_portfolio_2024/index.html",
     "static/media/css-3.svg": "/professional_portfolio_2024/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.3aa23e5d.css.map": "/professional_portfolio_2024/static/css/main.3aa23e5d.css.map",
-    "main.5926c756.js.map": "/professional_portfolio_2024/static/js/main.5926c756.js.map",
+    "main.a4110c0e.css.map": "/professional_portfolio_2024/static/css/main.a4110c0e.css.map",
+    "main.f9dfba13.js.map": "/professional_portfolio_2024/static/js/main.f9dfba13.js.map",
     "453.343a9aeb.chunk.js.map": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aa23e5d.css",
-    "static/js/main.5926c756.js"
+    "static/css/main.a4110c0e.css",
+    "static/js/main.f9dfba13.js"
   ]
 }
