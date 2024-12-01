@@ -48,7 +48,7 @@ export default function Hero() {
             <span className="role"> {roles[currentWordIndex]}</span> // Show the current word
           )}{" "}
         </p>
-        <p className="last-updated">Last Updated: November, 2024</p>
+        <p className="last-updated">Last Updated: December, 2024</p>
       </div>
       {/* second column */}
       <div>

@@ -25,13 +25,14 @@ export default function About() {
             <div>
               {/* Front side Hire Me */}
               <p className="sm-heading">You should </p>
-              <p className="lg-heading">HIRE ME</p>
+              <p className="lg-heading button-highlight">HIRE ME</p>
               <p className="med-text">
                 {" "}
                 because I am trust-worthy, a
                 <span className="keyword-link"> fast-learner</span>, and eager
                 to work!{" "}
               </p>
+              <p className="subtle-heading"> click to learn more</p>
             </div>
           ) : (
             <div>
@@ -65,7 +66,7 @@ export default function About() {
             <div>
               {/* Front side CREATIVE */}
               <p className="sm-heading">I turn </p>
-              <p className="lg-heading animated-text">CREATIVE</p>
+              <p className="lg-heading  animated-text">CREATIVE</p>
               <p className="med-text">
                 ideas into tangible
                 <span className="keyword-link"> solutions</span>, combining
@@ -96,7 +97,7 @@ export default function About() {
             <div>
               {/* Front side CURRENTLY */}
               <p className="sm-heading">I am </p>
-              <p className="lg-heading">CURRENTLY</p>
+              <p className="lg-heading button-highlight">CURRENTLY</p>
               <p className="med-text">
                 working on a mobile application called,
                 <br />
@@ -136,7 +137,7 @@ export default function About() {
             <div>
               {/* Front side FREE TIME */}
               <p className="sm-heading">In my </p>
-              <p className="lg-heading">FREE TIME</p>
+              <p className="lg-heading button-highlight">FREE TIME</p>
               <p className="med-text">
                 I enjoy making art out of recycled material, recharging in
                 nature and traveling with
@@ -160,7 +161,7 @@ export default function About() {
             <div>
               {/* Front side GRAD */}
               <p className="sm-heading">An impressive </p>
-              <p className="lg-heading">4.0 GPA</p>
+              <p className="lg-heading button-highlight">4.0 GPA</p>
               <p className="med-text">
                 Bachelor of Science in Computer Science,
                 <span className="keyword-link">
