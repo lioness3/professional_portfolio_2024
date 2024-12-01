@@ -56,7 +56,59 @@ export default function About() {
             </div>
           )}
         </div>
-
+        {/* GRAD */}
+        <div
+          className="about-card"
+          onClick={() => setShowContentGrad(!showContentGrad)}
+        >
+          {showContentGrad ? (
+            <div>
+              {/* Front side GRAD */}
+              <p className="sm-heading">An impressive </p>
+              <p className="lg-heading button-highlight">4.0 GPA</p>
+              <p className="med-text">
+                Bachelor of Science in Computer Science,
+                <span className="keyword-link">
+                  {" "}
+                  Software Enginnering Major
+                </span>
+                .
+              </p>
+            </div>
+          ) : (
+            <div className="contact-me">
+              {/* Backside, shows when clicked */}
+              <p className="back-heading">Contact Me </p>
+              <p className="back-text">Email: Joann333Carter@gmail.com</p>
+              <p className="back-text">Text: (603)566-5610</p>
+              <div className="contact-link-group">
+                <a
+                  href="https://github.com/lioness3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Tooltip title="Visit Github">
+                    <GitHubIcon fontSize="large" />
+                  </Tooltip>
+                </a>
+                <a
+                  href="https://linkedin.com/in/joann-carter/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Tooltip title="Visit LinkedIn">
+                    <LinkedInIcon fontSize="large" />
+                  </Tooltip>
+                </a>
+                <a href={Pdf} target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="Download Resume">
+                    <SystemUpdateAltIcon fontSize="large" />
+                  </Tooltip>
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
         {/* CREATIVE GOAL */}
         <div
           className="about-card"
@@ -148,59 +200,6 @@ export default function About() {
             <div className="cat-img">
               {/* Backside, shows when clicked */}
               <img src={cat} alt="cat" />
-            </div>
-          )}
-        </div>
-
-        {/* GRAD */}
-        <div
-          className="about-card"
-          onClick={() => setShowContentGrad(!showContentGrad)}
-        >
-          {showContentGrad ? (
-            <div>
-              {/* Front side GRAD */}
-              <p className="sm-heading">An impressive </p>
-              <p className="lg-heading button-highlight">4.0 GPA</p>
-              <p className="med-text">
-                Bachelor of Science in Computer Science,
-                <span className="keyword-link">
-                  {" "}
-                  Software Enginnering Major
-                </span>
-                .
-              </p>
-            </div>
-          ) : (
-            <div className="contact-me">
-              {/* Backside, shows when clicked */}
-              <p className="back-heading">Contact Me </p>
-              <p className="back-text">Email: Joann333Carter@gmail.com</p>
-              <div className="contact-link-group">
-                <a
-                  href="https://github.com/lioness3"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Tooltip title="Visit Github">
-                    <GitHubIcon fontSize="large" />
-                  </Tooltip>
-                </a>
-                <a
-                  href="https://linkedin.com/in/joann-carter/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Tooltip title="Visit LinkedIn">
-                    <LinkedInIcon fontSize="large" />
-                  </Tooltip>
-                </a>
-                <a href={Pdf} target="_blank" rel="noopener noreferrer">
-                  <Tooltip title="Download Resume">
-                    <SystemUpdateAltIcon fontSize="large" />
-                  </Tooltip>
-                </a>
-              </div>
             </div>
           )}
         </div>

@@ -49,14 +49,14 @@ export default function Creation({
         <p className="prj-header"> Description:</p>
         <p className="prj-content">{description}</p>
       </div>
-      {/* <div className="prj-card">
+      <div className="prj-card">
         <p className="prj-header"> Demo:</p>
-        <div className="video-container">
-          <video className="creation-video" controls>
-            <source src={demo} type="video/mp4" />
-          </video>
+        <div className="demo-group">
+          {demo.map((picUrl, index) => (
+            <img src={picUrl} key={index} className="demo-img" alt={"demo"} />
+          ))}
         </div>
-      </div> */}
+      </div>
 
       <div className="prj-card">
         <p className="prj-header">Contributions:</p>

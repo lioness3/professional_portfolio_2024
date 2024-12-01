@@ -99,6 +99,12 @@
 
   gap: 0.5rem; /* Add spacing between images (optional) */
 }
-.wire-frame {
-  height: 1.25rem;
+.demo-img {
+  height: 100px;
+  border: 1px solid var(--grey-color);
+  border-radius: var(--border-radius);
+}
+.demo-group {
+  display: flex;
+  justify-content: space-evenly;
 }

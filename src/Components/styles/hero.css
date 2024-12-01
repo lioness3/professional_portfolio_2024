@@ -8,9 +8,8 @@
     "updated portrait"
     "link-group link-group";
   padding-top: 10rem;
-
   column-gap: 10%;
-  height: 70vh;
+  height: 70%;
   scroll-snap-align: start;
   color: white;
   align-items: end;
@@ -43,7 +42,6 @@
   font-weight: 700;
   margin: 0;
   font-size: 6rem;
-
   letter-spacing: 2px;
   animation: bounce 1s ease-in-out;
 }
@@ -131,4 +129,5 @@
 }
 .link-group a {
   color: white;
+  cursor: pointer;
 }

@@ -4,8 +4,13 @@ import wixLogo from "../images/wix.svg";
 import cssLogo from "../images/css-3.svg";
 import jQueryLogo from "../images/jquery.svg";
 import reactLogo from "../images/react-native-1.svg";
-
 import htmlLogo from "../images/html-5.svg";
+
+//demo images
+import OHC1 from "../images/OHC1.png";
+import OHC2 from "../images/OHC2.png";
+import OHC3 from "../images/OHC3.png";
+import oldSite from "../images/oldSite.png";
 
 const content = [
   {
@@ -21,7 +26,7 @@ const content = [
     published a brand-new website using Wix, incorporating custom JavaScript to 
     dynamically show or hide information based on user interactions.`,
     colors: ["#5BC4D7", "#354156", "#ffff", "#344f83"],
-    // demo: oceanHarbor,
+    demo: [OHC1, OHC2, OHC3],
     wireframe: "src/images/privatePortalWireframe.jpg",
     afterthoughts:
       "Looking back, I would collaborate closely with the client to obtain all required content before commencing the layout design process. And, I would create detailed mockups that incorporate interactive elements to provide a realistic user experience.",
@@ -88,8 +93,8 @@ const content = [
     afterthoughts: ` When I first developed this project, 
        I was a new developer eager to make my website stand out with 
        a unique design. My initial goal was to create a site that was 
-       user-friendly but didn&apos;t look like every other portfolio. However, 
-       upon revisiting my original site (link here), I realized that it 
+       user-friendly without looking like every other portfolio. However, 
+       upon revisiting my original site, I realized that it 
        missed the mark in terms of usability and aesthetics. Over time,
         I learned that users often prefer familiar layouts, 
         as these make navigation easier and more intuitive. Going forward,
@@ -101,9 +106,9 @@ const content = [
     id: 4,
     title: "Bar Master",
     description: `Bar Master is a mock website created
-        for a fictional bar company called 'Glass.'
+        for a fictional bar company called 'Glass'.
         This site serves as a basic inventory management 
-        tool, allowing users to add kegs to the system and 
+        tool, allowing users to add beer kegs to the system and 
         display them on the main screen.`,
     language: [jsLogo, reactLogo, htmlLogo, cssLogo],
     contributions: `As the sole developer on this project,
