@@ -72,7 +72,7 @@ export default function Creation({
         <div className="git-link-container">
           View the source code:
           <a href={gitLink} target="_blank" rel="noopener noreferrer">
-            <AiFillGithub size={24} color={"var(--button-color)"} />
+            <AiFillGithub size={48} color={"var(--button-color)"} />
           </a>
         </div>
       ) : null}

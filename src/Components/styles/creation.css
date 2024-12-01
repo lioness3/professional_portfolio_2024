@@ -54,8 +54,8 @@
 }
 .close-btn {
   position: absolute;
-  right: 1.25rem;
-  top: 1.25rem;
+  right: 0.5rem;
+  top: 0.5rem;
   color: var(--grey-color);
 }
 .video-container {
@@ -80,7 +80,9 @@
   display: flex;
   gap: 0.5rem;
   justify-items: start;
-  flex-wrap: wrap; /* Allows color blocks to wrap to next line */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .color-block {

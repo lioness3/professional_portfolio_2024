@@ -99,6 +99,7 @@ export default function About() {
               <p className="lg-heading">CURRENTLY</p>
               <p className="med-text">
                 working on a mobile application called,
+                <br />
                 <span className="keyword-link"> Dine or Ditch </span>
               </p>
             </div>
