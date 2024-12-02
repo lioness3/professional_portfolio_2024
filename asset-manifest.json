@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/professional_portfolio_2024/static/css/main.8cf96de3.css",
-    "main.js": "/professional_portfolio_2024/static/js/main.3d83080a.js",
+    "main.css": "/professional_portfolio_2024/static/css/main.d64f2bbd.css",
+    "main.js": "/professional_portfolio_2024/static/js/main.8c7da120.js",
     "static/js/453.343a9aeb.chunk.js": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js",
     "static/media/hireMe.png": "/professional_portfolio_2024/static/media/hireMe.16e0c4e4b0edb404ce83.png",
     "static/media/portfolioMockUp.png": "/professional_portfolio_2024/static/media/portfolioMockUp.49ce40bf96f9eb9e5508.png",
-    "static/media/OHC1.png": "/professional_portfolio_2024/static/media/OHC1.66364777ceabf032f49b.png",
+    "static/media/barMaster3.png": "/professional_portfolio_2024/static/media/barMaster3.0afd6d199c782ec5b9f1.png",
+    "static/media/barMaster1.png": "/professional_portfolio_2024/static/media/barMaster1.27a44408cc9921e66fb9.png",
+    "static/media/barMaster2.png": "/professional_portfolio_2024/static/media/barMaster2.923ad566859473f57cf2.png",
+    "static/media/OHC1.png": "/professional_portfolio_2024/static/media/OHC1.02d3ff6731f99899ccd6.png",
     "static/media/oldSite.png": "/professional_portfolio_2024/static/media/oldSite.8a6563fe21fe9d087da1.png",
     "static/media/shadow.jpg": "/professional_portfolio_2024/static/media/shadow.24b2c9b86094e3dd58f1.jpg",
     "static/media/truck.png": "/professional_portfolio_2024/static/media/truck.abded4a1d7274a5fabd0.png",
     "static/media/portfolioMockUp2.png": "/professional_portfolio_2024/static/media/portfolioMockUp2.4bf118e755af0e0d7af9.png",
     "static/media/portfolioMockUp3.png": "/professional_portfolio_2024/static/media/portfolioMockUp3.c37d6b8716e03f2a05bc.png",
     "static/media/headshot.png": "/professional_portfolio_2024/static/media/headshot.5eb2a7de07332e6c73f9.png",
-    "static/media/OHC2.png": "/professional_portfolio_2024/static/media/OHC2.1a94c447518095e17be8.png",
+    "static/media/OHC2.png": "/professional_portfolio_2024/static/media/OHC2.51e0a708b82e0103faee.png",
+    "static/media/azZip3.png": "/professional_portfolio_2024/static/media/azZip3.39519a36af47178923a8.png",
+    "static/media/azZip1.png": "/professional_portfolio_2024/static/media/azZip1.f4ead30ac0a4229812d6.png",
     "static/media/jsLogo.png": "/professional_portfolio_2024/static/media/jsLogo.cf7522f436d6510da302.png",
     "static/media/Resume_JoannCarter_Nov24.pdf": "/professional_portfolio_2024/static/media/Resume_JoannCarter_Nov24.540003b25cb7d350984e.pdf",
-    "static/media/OHC3.png": "/professional_portfolio_2024/static/media/OHC3.fb1cf9865d268bdd7295.png",
+    "static/media/azZip2.png": "/professional_portfolio_2024/static/media/azZip2.c732ea87195f81c48bb8.png",
+    "static/media/OHC3.png": "/professional_portfolio_2024/static/media/OHC3.e71e1d24e0bb2857edb3.png",
     "static/media/react-native-1.svg": "/professional_portfolio_2024/static/media/react-native-1.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/jquery.svg": "/professional_portfolio_2024/static/media/jquery.745135a2344027edb4d7aaf705440c6b.svg",
     "static/media/low-poly-grid-haikei.svg": "/professional_portfolio_2024/static/media/low-poly-grid-haikei.be6f5c03fecb074d9036.svg",
@@ -27,12 +33,12 @@
     "static/media/html-5.svg": "/professional_portfolio_2024/static/media/html-5.e248da514edac2a2a66bde8fa0166701.svg",
     "index.html": "/professional_portfolio_2024/index.html",
     "static/media/css-3.svg": "/professional_portfolio_2024/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.8cf96de3.css.map": "/professional_portfolio_2024/static/css/main.8cf96de3.css.map",
-    "main.3d83080a.js.map": "/professional_portfolio_2024/static/js/main.3d83080a.js.map",
+    "main.d64f2bbd.css.map": "/professional_portfolio_2024/static/css/main.d64f2bbd.css.map",
+    "main.8c7da120.js.map": "/professional_portfolio_2024/static/js/main.8c7da120.js.map",
     "453.343a9aeb.chunk.js.map": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf96de3.css",
-    "static/js/main.3d83080a.js"
+    "static/css/main.d64f2bbd.css",
+    "static/js/main.8c7da120.js"
   ]
 }
