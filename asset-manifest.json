@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional_portfolio_2024/static/css/main.51582a96.css",
-    "main.js": "/professional_portfolio_2024/static/js/main.be990e0c.js",
+    "main.css": "/professional_portfolio_2024/static/css/main.84316015.css",
+    "main.js": "/professional_portfolio_2024/static/js/main.8724f33c.js",
     "static/js/453.343a9aeb.chunk.js": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js",
     "static/media/hireMe.png": "/professional_portfolio_2024/static/media/hireMe.16e0c4e4b0edb404ce83.png",
     "static/media/OHC1.png": "/professional_portfolio_2024/static/media/OHC1.66364777ceabf032f49b.png",
@@ -19,17 +19,17 @@
     "static/media/wix.svg": "/professional_portfolio_2024/static/media/wix.f83003bf07cd24e146bfcf51968655da.svg",
     "static/media/docker.svg": "/professional_portfolio_2024/static/media/docker.47a900dbbbbe13dbe7c3171049ec68c8.svg",
     "static/media/java.svg": "/professional_portfolio_2024/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
-    "static/media/github.svg": "/professional_portfolio_2024/static/media/github.374e3084ff21dc3bf5335cdd22e7edc8.svg",
     "static/media/python.svg": "/professional_portfolio_2024/static/media/python.a3234e7b1423b66cd5dbe9d2a3a17c6d.svg",
+    "static/media/githubWhite.svg": "/professional_portfolio_2024/static/media/githubWhite.968c219118202ff584370567ce38df82.svg",
     "static/media/html-5.svg": "/professional_portfolio_2024/static/media/html-5.e248da514edac2a2a66bde8fa0166701.svg",
     "index.html": "/professional_portfolio_2024/index.html",
     "static/media/css-3.svg": "/professional_portfolio_2024/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.51582a96.css.map": "/professional_portfolio_2024/static/css/main.51582a96.css.map",
-    "main.be990e0c.js.map": "/professional_portfolio_2024/static/js/main.be990e0c.js.map",
+    "main.84316015.css.map": "/professional_portfolio_2024/static/css/main.84316015.css.map",
+    "main.8724f33c.js.map": "/professional_portfolio_2024/static/js/main.8724f33c.js.map",
     "453.343a9aeb.chunk.js.map": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51582a96.css",
-    "static/js/main.be990e0c.js"
+    "static/css/main.84316015.css",
+    "static/js/main.8724f33c.js"
   ]
 }
