@@ -15,14 +15,15 @@ export default function Creation({
   onClose,
 }) {
   return (
+    // TITLE
     <div className="creation-section">
       <div className="prj-card">
         <p className="prj-header"> Title:</p>
         <p className="prj-title">{title}</p>
         <AiFillCloseCircle className="close-btn" onClick={onClose} />
       </div>
-
-      <div className="inline-info prj-card">
+      {/* TECH IMG */}
+      <div className=" prj-card">
         <p className="prj-header">Technology:</p>
         <div className="tech-container">
           {language.map((img, index) => (
@@ -34,6 +35,24 @@ export default function Creation({
             />
           ))}
         </div>
+      </div>
+
+      {/* DESCRIPTION */}
+      <div className="prj-card">
+        <p className="prj-header"> Description:</p>
+        <p className="prj-content">{description}</p>
+      </div>
+      {/* DEMO IMG */}
+      <div className="prj-card">
+        <p className="prj-header"> Demo:</p>
+        <div className="demo-group">
+          {demo.map((picUrl, index) => (
+            <img src={picUrl} key={index} className="demo-img" alt={"demo"} />
+          ))}
+        </div>
+      </div>
+      {/* COLOR PALETTE */}
+      <div className="prj-card">
         <p className="prj-header"> Color Palette:</p>
         <div className="color-palette-cont">
           {colors.map((pcolor, index) => (
@@ -45,23 +64,12 @@ export default function Creation({
           ))}
         </div>
       </div>
-      <div className="prj-card">
-        <p className="prj-header"> Description:</p>
-        <p className="prj-content">{description}</p>
-      </div>
-      <div className="prj-card">
-        <p className="prj-header"> Demo:</p>
-        <div className="demo-group">
-          {demo.map((picUrl, index) => (
-            <img src={picUrl} key={index} className="demo-img" alt={"demo"} />
-          ))}
-        </div>
-      </div>
-
+      {/* CONTRIBUTIONS */}
       <div className="prj-card">
         <p className="prj-header">Contributions:</p>
         <p className="prj-content">{contributions}</p>
       </div>
+      {/* AFTER THOUGHTS */}
       <div className="prj-card">
         <p className="prj-header"> Afterthoughts:</p>
         <p className="prj-content">{afterthoughts}</p>
@@ -86,7 +94,7 @@ Creation.propTypes = {
   contributions: PropTypes.string,
   colors: PropTypes.array,
   afterthoughts: PropTypes.string,
-  demo: PropTypes.string,
+  demo: PropTypes.array,
   wireframe: PropTypes.string,
   gitLink: PropTypes.string,
   onClose: PropTypes.func.isRequired,

@@ -11,6 +11,9 @@ import OHC1 from "../images/OHC1.png";
 import OHC2 from "../images/OHC2.png";
 import OHC3 from "../images/OHC3.png";
 import oldSite from "../images/oldSite.png";
+import portfolioMockUp from "../images/portfolioMockUp.png";
+import portfolioMockUp2 from "../images/portfolioMockUp2.png";
+import portfolioMockUp3 from "../images/portfolioMockUp3.png";
 
 const content = [
   {
@@ -88,7 +91,7 @@ const content = [
       "#ffffff",
       "#000000",
     ],
-    // demo: oldSite,
+    demo: [portfolioMockUp, portfolioMockUp2, portfolioMockUp3],
     wireframe: "src/images/privatePortalWireframe.jpg",
     afterthoughts: ` When I first developed this project, 
        I was a new developer eager to make my website stand out with 
