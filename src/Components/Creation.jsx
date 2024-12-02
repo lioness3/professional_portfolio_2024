@@ -23,7 +23,7 @@ export default function Creation({
         <AiFillCloseCircle className="close-btn" onClick={onClose} />
       </div>
       {/* TECH IMG */}
-      <div className=" prj-card">
+      <div className=" prj-card inline-display">
         <p className="prj-header">Technology:</p>
         <div className="tech-container">
           {language.map((img, index) => (
@@ -52,7 +52,7 @@ export default function Creation({
         </div>
       </div>
       {/* COLOR PALETTE */}
-      <div className="prj-card">
+      <div className="prj-card inline-display">
         <p className="prj-header"> Color Palette:</p>
         <div className="color-palette-cont">
           {colors.map((pcolor, index) => (
@@ -70,7 +70,7 @@ export default function Creation({
         <p className="prj-content">{contributions}</p>
       </div>
       {/* AFTER THOUGHTS */}
-      <div className="prj-card">
+      <div className="prj-card ">
         <p className="prj-header"> Afterthoughts:</p>
         <p className="prj-content">{afterthoughts}</p>
       </div>

@@ -1,7 +1,6 @@
 .about-section {
   background-image: url("/src/images/hireMe.png");
-  height: 100%;
-  scroll-snap-align: start;
+  height: 90vh;
   overflow: hidden;
   align-content: center;
   opacity: 0.9;

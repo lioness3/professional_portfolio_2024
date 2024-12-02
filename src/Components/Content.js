@@ -14,6 +14,12 @@ import oldSite from "../images/oldSite.png";
 import portfolioMockUp from "../images/portfolioMockUp.png";
 import portfolioMockUp2 from "../images/portfolioMockUp2.png";
 import portfolioMockUp3 from "../images/portfolioMockUp3.png";
+import barMaster1 from "../images/barMaster1.png";
+import barMaster2 from "../images/barMaster2.png";
+import barMaster3 from "../images/barMaster3.png";
+import azZip1 from "../images/azZip1.png";
+import azZip2 from "../images/azZip2.png";
+import azZip3 from "../images/azZip3.png";
 
 const content = [
   {
@@ -126,7 +132,7 @@ const content = [
         carefully considering layout, styling, and interaction to align
         with the needs of a simple inventory management system.`,
     colors: ["#99AAAC", "#331A14", "#DA0A08", "#000000"],
-    // demo: barMaster,
+    demo: [barMaster1, barMaster2, barMaster3],
     wireframe: "src/images/privatePortalWireframe.jpg",
     afterthoughts: `Reflecting on this project, I would invest more time in the design phase,
         starting with detailed mockups and a well-defined color palette, rather than
@@ -148,7 +154,7 @@ const content = [
      creating the logic for pricing calculations and implementing
       an intuitive form interface to enhance user experience.`,
     colors: ["#99AAAC", "#331A14", "#DA0A08", "#000000"],
-    // demo: azzip,
+    demo: [azZip1, azZip2, azZip3],
     wireframe: "src/images/privatePortalWireframe.jpg",
     gitLink: "https://github.com/lioness3/pizza-code-review-4",
     afterthoughts: `In retrospect, I would enhance the UI to improve readability 
