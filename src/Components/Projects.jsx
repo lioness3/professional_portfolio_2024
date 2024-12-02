@@ -9,7 +9,7 @@ import pythonLogo from "../images/python.svg";
 import javaLogo from "../images/java.svg";
 import htmlLogo from "../images/html-5.svg";
 import dockerLogo from "../images/docker.svg";
-import gitLogo from "../images/github.svg";
+import gitLogo from "../images/githubWhite.svg";
 
 export default function Projects() {
   const [showMore, setShowMore] = useState(false);

@@ -92,7 +92,7 @@
 }
 .tech-used {
   height: 2rem;
-  width: fit-content;
+  width: 2rem;
 }
 .tech-container {
   display: flex;

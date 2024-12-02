@@ -18,7 +18,7 @@ const content = [
     title: "Ocean Harbor Condo",
     description:
       "This website serves a condominium association in Florida. It features a public section with information for those interested in visiting Ocean Harbor, and a private residents-only portal for community interaction and exclusive resources.",
-    language: [jsLogo, wixLogo],
+    language: [wixLogo, jsLogo],
     contributions: `I thoroughly reviewed the old site, 
     noting areas for improvement, and created several wireframes. 
     I worked closely with the client, discussing different use cases to decide 

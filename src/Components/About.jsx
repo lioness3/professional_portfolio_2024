@@ -74,6 +74,7 @@ export default function About() {
                 </span>
                 .
               </p>
+              <p className="subtle-heading"> click to learn more</p>
             </div>
           ) : (
             <div className="contact-me">
@@ -124,6 +125,7 @@ export default function About() {
                 <span className="keyword-link"> solutions</span>, combining
                 technical expertise with a keen eye for design.
               </p>
+              <p className="subtle-heading"> click to learn more</p>
             </div>
           ) : (
             <div>
@@ -155,6 +157,7 @@ export default function About() {
                 <br />
                 <span className="keyword-link"> Dine or Ditch </span>
               </p>
+              <p className="subtle-heading"> click to learn more</p>
             </div>
           ) : (
             <div className="construction">
@@ -195,6 +198,7 @@ export default function About() {
                 nature and traveling with
                 <span className="keyword-link"> my cat</span>.
               </p>
+              <p className="subtle-heading"> click to learn more</p>
             </div>
           ) : (
             <div className="cat-img">
