@@ -1,10 +1,12 @@
 //data for projects
+// logos for technology used
 import jsLogo from "../images/jsLogo.png";
 import wixLogo from "../images/wix.svg";
 import cssLogo from "../images/css-3.svg";
 import jQueryLogo from "../images/jquery.svg";
 import reactLogo from "../images/react-native-1.svg";
 import htmlLogo from "../images/html-5.svg";
+import cLogo from "../images/C_Logo.png";
 
 //demo images
 import OHC1 from "../images/OHC1.png";
@@ -20,6 +22,8 @@ import barMaster3 from "../images/barMaster3.png";
 import azZip1 from "../images/azZip1.png";
 import azZip2 from "../images/azZip2.png";
 import azZip3 from "../images/azZip3.png";
+import lightbulb from "../images/lightbulb.svg";
+import therm from "../images/thermostat.svg";
 
 const content = [
   {
@@ -163,6 +167,42 @@ const content = [
         Additionally, lightening the purple background color would draw more attention
         to the input fields, improving the overall user experience
         by reducing visual distractions.`,
+  },
+  {
+    id: 6,
+    title: "Embedded Systems- SOS",
+    description: `This project demonstrates the application of state machines
+        and GPIO pins to create a Morse code SOS signal. The device cycles through
+        the SOS pattern using two LEDs until a user-initiated button 
+        press triggers a different LED sequence to signal an "OK" message.`,
+    language: [cLogo],
+    contributions: `In this project, I successfully implemented a state machine
+        in C to control the LED sequences and button input. I also configured and 
+        utilized GPIO pins to interface with the LEDs and button. Additionally,
+        I thoroughly documented the code, making it easy to understand and modify.`,
+    colors: [],
+    demo: [lightbulb],
+    gitLink: "https://github.com/lioness3/EmbeddedSystems",
+    afterthoughts: `While this project effectively demonstrates the use of state 
+        machines and GPIO, there are opportunities for improvement. Refactoring the
+        code for better modularity and readability would be beneficial. Implementin
+        g error handling mechanisms could enhance the project's robustness. Exploring
+        additional features, such as customizable Morse code sequences or wireless 
+        communication, could further expand its capabilities`,
+  },
+  {
+    id: 7,
+    title: "Thermostat",
+    description: `This project leverages a TI microcontroller to implement a basic thermostat
+        system. The thermostat utilizes a set of buttons to adjust the desired temperature.
+        A temperature sensor continuously monitors the ambient temperature, and an LED is
+        controlled to simulate heating or cooling based on the set point and current temperature.`,
+    language: [cLogo],
+    contributions: `In this project, I successfully integrated multiple peripherals, including buttons, LEDs, temperature sensors, and timers, with the microcontroller. I developed firmware to read sensor data, process user input, and control the LED output based on temperature comparisons. Additionally, I implemented clear and concise code with comprehensive comments to enhance readability and maintainability.`,
+    colors: [],
+    demo: [therm],
+    gitLink: "https://github.com/lioness3/EmbeddedSystems",
+    afterthoughts: `While this project provides a strong foundation in microcontroller programming, there are opportunities for improvement. The code could benefit from refactoring to enhance efficiency and readability. Implementing robust error handling mechanisms would increase the system's reliability. Exploring additional features like calibration, hysteresis, or remote control could further expand the functionality of the thermostat. Finally, a more user-friendly interface, such as an LCD display or a mobile app, could enhance the user experience.`,
   },
 ];
 export default content;

@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import "./styles/creation.css";
 import { AiFillGithub } from "react-icons/ai";
+import lightbulb from "../images/lightbulb.svg";
 import { AiFillCloseCircle } from "react-icons/ai";
 export default function Creation({
   title,
@@ -36,7 +37,6 @@ export default function Creation({
           ))}
         </div>
       </div>
-
       {/* DESCRIPTION */}
       <div className="prj-card">
         <p className="prj-header"> Description:</p>
@@ -75,7 +75,6 @@ export default function Creation({
         <p className="prj-content">{afterthoughts}</p>
       </div>
       {/* If there is a git repo, show the icon with a link to that source code */}
-
       {gitLink ? (
         <div className="git-link-container">
           View the source code:
