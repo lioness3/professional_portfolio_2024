@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/professional_portfolio_2024/static/css/main.d64f2bbd.css",
-    "main.js": "/professional_portfolio_2024/static/js/main.8c7da120.js",
+    "main.js": "/professional_portfolio_2024/static/js/main.2cb7c0e1.js",
     "static/js/453.343a9aeb.chunk.js": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js",
     "static/media/hireMe.png": "/professional_portfolio_2024/static/media/hireMe.16e0c4e4b0edb404ce83.png",
     "static/media/portfolioMockUp.png": "/professional_portfolio_2024/static/media/portfolioMockUp.49ce40bf96f9eb9e5508.png",
@@ -21,24 +21,27 @@
     "static/media/jsLogo.png": "/professional_portfolio_2024/static/media/jsLogo.cf7522f436d6510da302.png",
     "static/media/Resume_JoannCarter_Nov24.pdf": "/professional_portfolio_2024/static/media/Resume_JoannCarter_Nov24.540003b25cb7d350984e.pdf",
     "static/media/azZip2.png": "/professional_portfolio_2024/static/media/azZip2.c732ea87195f81c48bb8.png",
+    "static/media/C_Logo.png": "/professional_portfolio_2024/static/media/C_Logo.bbbbbabc8c191bfb99bf.png",
     "static/media/OHC3.png": "/professional_portfolio_2024/static/media/OHC3.e71e1d24e0bb2857edb3.png",
     "static/media/react-native-1.svg": "/professional_portfolio_2024/static/media/react-native-1.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/jquery.svg": "/professional_portfolio_2024/static/media/jquery.745135a2344027edb4d7aaf705440c6b.svg",
     "static/media/low-poly-grid-haikei.svg": "/professional_portfolio_2024/static/media/low-poly-grid-haikei.be6f5c03fecb074d9036.svg",
     "static/media/wix.svg": "/professional_portfolio_2024/static/media/wix.f83003bf07cd24e146bfcf51968655da.svg",
+    "static/media/lightbulb.svg": "/professional_portfolio_2024/static/media/lightbulb.8282e3021b5d2829693cb3c64874df9b.svg",
     "static/media/docker.svg": "/professional_portfolio_2024/static/media/docker.47a900dbbbbe13dbe7c3171049ec68c8.svg",
     "static/media/java.svg": "/professional_portfolio_2024/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
     "static/media/python.svg": "/professional_portfolio_2024/static/media/python.a3234e7b1423b66cd5dbe9d2a3a17c6d.svg",
     "static/media/githubWhite.svg": "/professional_portfolio_2024/static/media/githubWhite.968c219118202ff584370567ce38df82.svg",
     "static/media/html-5.svg": "/professional_portfolio_2024/static/media/html-5.e248da514edac2a2a66bde8fa0166701.svg",
     "index.html": "/professional_portfolio_2024/index.html",
+    "static/media/thermostat.svg": "/professional_portfolio_2024/static/media/thermostat.fd29710a6c6f18a2efb5e5047073b6f7.svg",
     "static/media/css-3.svg": "/professional_portfolio_2024/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "main.d64f2bbd.css.map": "/professional_portfolio_2024/static/css/main.d64f2bbd.css.map",
-    "main.8c7da120.js.map": "/professional_portfolio_2024/static/js/main.8c7da120.js.map",
+    "main.2cb7c0e1.js.map": "/professional_portfolio_2024/static/js/main.2cb7c0e1.js.map",
     "453.343a9aeb.chunk.js.map": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d64f2bbd.css",
-    "static/js/main.8c7da120.js"
+    "static/js/main.2cb7c0e1.js"
   ]
 }
