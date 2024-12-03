@@ -1,12 +1,15 @@
 //data for projects
 // logos for technology used
 import jsLogo from "../images/jsLogo.png";
+import javaLogo from "../images/java.svg";
 import wixLogo from "../images/wix.svg";
 import cssLogo from "../images/css-3.svg";
 import jQueryLogo from "../images/jquery.svg";
 import reactLogo from "../images/react-native-1.svg";
 import htmlLogo from "../images/html-5.svg";
 import cLogo from "../images/C_Logo.png";
+import pythonLogo from "../images/python.svg";
+import androidLogo from "../images/android.svg";
 
 //demo images
 import OHC1 from "../images/OHC1.png";
@@ -24,6 +27,11 @@ import azZip2 from "../images/azZip2.png";
 import azZip3 from "../images/azZip3.png";
 import lightbulb from "../images/lightbulb.svg";
 import therm from "../images/thermostat.svg";
+import AIPirate1 from "../images/AIPirate1.png";
+import AIPirate2 from "../images/AIPirate2.png";
+import inventory1 from "../images/Inventory1.png";
+import inventory2 from "../images/Inventory2.png";
+import inventory3 from "../images/Inventory3.png";
 
 const content = [
   {
@@ -185,8 +193,7 @@ const content = [
     gitLink: "https://github.com/lioness3/EmbeddedSystems",
     afterthoughts: `While this project effectively demonstrates the use of state 
         machines and GPIO, there are opportunities for improvement. Refactoring the
-        code for better modularity and readability would be beneficial. Implementin
-        g error handling mechanisms could enhance the project's robustness. Exploring
+        code for better modularity and readability would be beneficial. Implementing error handling mechanisms could enhance the project's robustness. Exploring
         additional features, such as customizable Morse code sequences or wireless 
         communication, could further expand its capabilities`,
   },
@@ -203,6 +210,54 @@ const content = [
     demo: [therm],
     gitLink: "https://github.com/lioness3/EmbeddedSystems",
     afterthoughts: `While this project provides a strong foundation in microcontroller programming, there are opportunities for improvement. The code could benefit from refactoring to enhance efficiency and readability. Implementing robust error handling mechanisms would increase the system's reliability. Exploring additional features like calibration, hysteresis, or remote control could further expand the functionality of the thermostat. Finally, a more user-friendly interface, such as an LCD display or a mobile app, could enhance the user experience.`,
+  },
+  {
+    id: 8,
+    title: "AI Treasure Pirate",
+    description: `This project takes inspiration from a popular treasure hunt game where a pirate 
+        races against the player to find hidden treasure.The pirate navigates a maze represented as a
+        grid-like environment. Its objective is to locate the treasure before anyone else using a 
+        powerful deep Q-learning algorithm. `,
+    language: [pythonLogo],
+    contributions: `I developed and implemented a Q-Learning algorithm to train an intelligent pirate 
+        agent to navigate a maze efficiently. The primary focus of the project was to create an AI agent
+        that could make optimal decisions within a complex environment while adhering to ethical considerations.
+        By incorporating ethical principles into the agents behavior, we aimed to ensure fair and unbiased 
+        decision-making.`,
+    colors: [],
+    demo: [AIPirate1, AIPirate2],
+    gitLink: "https://github.com/lioness3/ArtificialIntelligence",
+    afterthoughts: `Through this project, I gained valuable insights into the application of reinforcement
+        learning techniques, particularly deep Q-learning. I was able to apply these techniques to create an
+        intelligent agent that could navigate a complex environment. Additionally, this project highlighted 
+        the importance of ethical considerations in AI development. I learned about the potential biases that 
+        can arise in AI systems and the importance of designing them in a fair and unbiased manner. As I 
+        continue to explore AI and machine learning, I will remain committed to developing ethical and 
+        responsible AI solutions.`,
+  },
+  {
+    id: 9,
+    title: "Android App",
+    description: `This Android application provides a user-friendly interface to manage inventory effectively.
+        Users can easily add, edit, and delete inventory items, along with their corresponding quantities. The app 
+        leverages SQLite to store and retrieve data reliably.
+        To ensure data security, the app implements user authentication, requiring users to log in before accessing
+        their inventory. For new users, a convenient account creation process is available. The app's design prioritizes 
+        simplicity and ease of use, focusing on core inventory management features. `,
+    language: [javaLogo, androidLogo],
+    contributions: `For this project, I developed a robust and user-friendly Android application to efficiently manage
+        inventory. I designed and implemented the user interface, ensuring a seamless user experience. I integrated SQLite 
+        to store and retrieve inventory data, ensuring data persistence and security. Additionally, I implemented user authentication
+        and account creation features to protect user data and control access to the application. Through rigorous testing and debugging,
+        I ensured the app's stability and reliability.`,
+    colors: ["#880808", "#1A5276", "#5499C7", "82E0AA"],
+    demo: [inventory1, inventory2, inventory3],
+    gitLink: "https://github.com/lioness3/InventoryTrackingAndroidApp",
+    afterthoughts: `While this version of the app provides a solid foundation, future enhancements are
+        planned. These include implementing password reset functionality, advanced search and filtering 
+        capabilities, barcode scanning integration, cloud synchronization, and user role-based access control.
+        By incorporating these features, the app can become a more comprehensive and powerful inventory management 
+        solution.`,
   },
 ];
 export default content;

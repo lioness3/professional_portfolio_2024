@@ -76,8 +76,8 @@ export default function Creation({
       </div>
       {/* If there is a git repo, show the icon with a link to that source code */}
       {gitLink ? (
-        <div className="git-link-container">
-          View the source code:
+        <div className="prj-card git-cont">
+          <p className="prj-header"> View the source code:</p>
           <a href={gitLink} target="_blank" rel="noopener noreferrer">
             <AiFillGithub size={48} color={"var(--button-color)"} />
           </a>
