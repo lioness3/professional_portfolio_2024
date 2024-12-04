@@ -19,6 +19,7 @@
   z-index: -1;
   animation: fall 20s infinite ease-in;
   height: 5rem;
+  max-width: 10%;
   opacity: 0;
   filter: grayscale(90%);
 }
@@ -155,6 +156,11 @@
   font-weight: 400;
   letter-spacing: 0.5px;
   font-size: 1.5rem;
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.909);
+  }
 }
 .logo-img {
   height: 1.5rem;

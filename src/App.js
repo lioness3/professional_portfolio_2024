@@ -11,11 +11,11 @@ function App() {
         <Hero />
       </div>
       <div className="scroll-section">
-        <Header content={"Projects"} color={"white"} />
+        <Header content={"Projects"} />
         <Projects />
       </div>
       <div className="scroll-section">
-        <Header content={"About"} color={"white"} />
+        <Header content={"About"} />
         <About />
       </div>
     </div>
