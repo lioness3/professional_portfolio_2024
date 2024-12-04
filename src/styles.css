@@ -18,7 +18,7 @@
 }
 
 * {
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 300;

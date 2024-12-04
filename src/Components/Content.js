@@ -32,6 +32,8 @@ import AIPirate2 from "../images/AIPirate2.png";
 import inventory1 from "../images/Inventory1.png";
 import inventory2 from "../images/Inventory2.png";
 import inventory3 from "../images/Inventory3.png";
+import construction1 from "../images/construction.png";
+import truck from "../images/truck.png";
 
 const content = [
   {
@@ -52,39 +54,28 @@ const content = [
     afterthoughts:
       "Looking back, I would collaborate closely with the client to obtain all required content before commencing the layout design process. And, I would create detailed mockups that incorporate interactive elements to provide a realistic user experience.",
   },
-  // {
-  //     id: 2,
-  //     title: "Dine or Ditch",
-  //     description: "Dine or Ditch is a mobile application designed to assist users in choosing dining options based on their preferences, location, and current mood. The app provides a curated list of restaurant recommendations, helping users quickly decide where to eat with minimal hassle.",
-  //     language: [
-  //         "src/images/react-native-1.svg",
-  //          "src/images/ts-logo-128.svg"],
-  //     contributions: `As the sole developer on the "Dine or Ditch" app,
-  //         I handled every aspect of its development from concept to deployment.
-  //         I began by brainstorming and refining the app's unique features to provide
-  //         users with a quick, easy way to choose dining options. I then created detailed
-  //         wireframes and mockups to establish a cohesive design and layout that guides
-  //         the user experience. In designing the UI/UX, I focused on building an intuitive,
-  //         engaging interface. For the frontend, I used React Native to create a responsive
-  //         and seamless user experience. I also developed the backend, implementing RESTful APIs
-  //         to manage data flow and securely access restaurant listings. As the full-stack developer,
-  //         I was responsible for ensuring all components—frontend and backend—integrated smoothly.
-  //         Throughout the process, I conducted extensive testing and prototyping, including unit,
-  //         integration, and end-to-end testing, to ensure the app&apos;s reliability and quality at every stage.`,
-  //     colors:[
-  //         '#000000',
-  //         '#ffffff',
-  //         '#A6A6A6',
-  //         '#01A303',
-  //         '#C00000'
-  //     ],
-  //    demo: oceanHarbor,
-  //     wireframe: "src/images/privatePortalWireframe.jpg",
-  //     afterthoughts:[
-  //         'I need to learn Figma or another mock up site better. Obtain all content from the client before beginning the layout design.',
-  //         'Create more detailed initial mockups with interactive elements like functioning buttons.'
-  //     ]
-  // },
+  {
+    id: 2,
+    title: "Dine or Ditch",
+    description:
+      "Dine or Ditch is a mobile application designed to assist users in choosing dining options based on their preferences, location, and current mood. The app provides a curated list of restaurant recommendations, helping users quickly decide where to eat with minimal hassle.",
+    language: [truck, reactLogo, jsLogo],
+    contributions: `As the sole developer on the "Dine or Ditch" app,
+          I handled every aspect of its development from concept to deployment.
+          I began by brainstorming and refining the app's unique features to provide
+          users with a quick, easy way to choose dining options. I then created detailed
+          wireframes and mockups to establish a cohesive design and layout that guides
+          the user experience. In designing the UI/UX, I focused on building an intuitive,
+          engaging interface. For the frontend, I used React Native to create a responsive
+          and seamless user experience. I also developed the backend, implementing RESTful APIs
+          to manage data flow and securely access restaurant listings. As the full-stack developer,
+          I was responsible for ensuring all components—frontend and backend—integrated smoothly.
+          Throughout the process, I conducted extensive testing and prototyping, including unit,
+          integration, and end-to-end testing, to ensure the app&apos;s reliability and quality at every stage.`,
+    colors: ["#000000", "#ffffff", "#A6A6A6", "#01A303", "#C00000"],
+    demo: [construction1],
+    afterthoughts: "This app is still under construction.",
+  },
   {
     id: 3,
     title: "Joann Carter Portfolio",
@@ -99,16 +90,7 @@ const content = [
         identifying areas for improvement. I then designed
         a modern web layout, gathered content, created a detailed mockup, and proceeded with the build.
         After the initial development phase, I conducted user testing to gather feedback and make necessary adjustments.`,
-    colors: [
-      "#09784E",
-      "#739286",
-      "#0f2b8d",
-      "#103506",
-      "#afd4a5",
-      "#b3c4bd",
-      "#ffffff",
-      "#000000",
-    ],
+    colors: ["#09784E", "#739286", "#ffffff", "#000000"],
     demo: [portfolioMockUp, portfolioMockUp2, portfolioMockUp3],
     wireframe: "src/images/privatePortalWireframe.jpg",
     afterthoughts: ` When I first developed this project, 
