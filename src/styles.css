@@ -18,15 +18,18 @@
 }
 
 * {
-  /* outline: 1px solid blue; */
+  outline: 1px solid blue;
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
-
-body {
+body,
+html {
   margin: 0;
+  padding: 0;
+}
+body {
   background-color: var(--background-color);
 }
 

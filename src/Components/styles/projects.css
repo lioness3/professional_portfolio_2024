@@ -1,11 +1,12 @@
 .projects-section {
   display: flex;
-  margin: 0;
   justify-content: center;
   position: relative;
   place-items: center;
   height: 90vh;
   overflow: hidden;
+  max-width: 99%;
+  margin: 0 auto; /* Center the container */
 }
 .logo-background-container {
   display: flex;
@@ -81,6 +82,7 @@
   padding: 2rem 1rem;
   height: max-content;
   width: max-content;
+  max-width: 90%;
   position: relative;
   background: rgba(0, 0, 0, 0.934);
 }
@@ -116,6 +118,7 @@
 .prjs-card {
   height: max-content;
   width: 35rem;
+  max-width: 90%;
   padding-block: 0.25rem;
   padding-inline: 0.25rem;
   border-radius: var(--border-radius);

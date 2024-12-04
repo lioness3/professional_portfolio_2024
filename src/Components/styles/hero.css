@@ -10,6 +10,8 @@
   padding-top: 10rem;
   column-gap: 10%;
   height: 70%;
+  max-width: 90%;
+  margin: 0 auto; /* Center the container */
   scroll-snap-align: start;
   color: rgba(255, 255, 255, 0.807);
   align-items: end;
@@ -21,6 +23,7 @@
     align-items: center;
     text-align: center;
     padding-bottom: 2rem;
+    padding-top: 4rem;
   }
 }
 .intro {

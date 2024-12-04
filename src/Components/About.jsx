@@ -64,15 +64,16 @@ export default function About() {
           {showContentGrad ? (
             <div>
               {/* Front side GRAD */}
-              <p className="sm-heading">An impressive </p>
+              <p className="sm-heading">Academic Excellence </p>
               <p className="lg-heading button-highlight">4.0 GPA</p>
               <p className="med-text">
-                Bachelor of Science in Computer Science,
+                Bachelor of Science <br />
+                in <br />
+                Computer Science, <br />
+                with a <br />
                 <span className="keyword-link">
-                  {" "}
-                  Software Enginnering Major
+                  Software Enginnering Major.
                 </span>
-                .
               </p>
               <p className="subtle-heading"> click to learn more</p>
             </div>
