@@ -184,11 +184,17 @@
 .back-text {
   font-weight: 500;
   font-size: 1.25rem;
+  @media (max-width: 700px) {
+    font-size: 0.75rem !important;
+  }
 }
 .back-heading {
   font-size: 2rem;
   margin: 0;
   font-weight: bold;
+  @media (max-width: 700px) {
+    font-size: 1.25rem !important;
+  }
 }
 
 .construction-text {
@@ -246,10 +252,8 @@
   display: flex;
   gap: 1em;
   margin: 0;
-
   justify-content: center;
-  transform: translateY(2rem);
 }
 .contact-link-group a {
-  color: var(--button-color);
+  color: white;
 }

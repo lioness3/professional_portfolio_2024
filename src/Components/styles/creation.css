@@ -69,7 +69,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 2rem;
-  outline: 2px solid green;
   @media (max-width: 994px) {
     column-gap: 0.75rem;
   }
@@ -78,8 +77,6 @@
 .color-palette-cont {
   display: flex;
   gap: 0.5rem;
-
-  outline: 1px solid blue;
 }
 
 .color-block {
@@ -93,8 +90,6 @@
   display: flex;
   white-space: nowrap;
   overflow-x: scroll;
-
-  outline: 2px solid blue;
   height: 4rem;
 }
 .tech-used {
