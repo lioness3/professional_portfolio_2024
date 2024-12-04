@@ -28,7 +28,7 @@ export default function Hero() {
         // If currently showing a word, switch to the caret
         setShowCaret(true);
       }
-    }, 2500); // how often it changes
+    }, 2000); // how often it changes
 
     return () => clearTimeout(timer);
   });

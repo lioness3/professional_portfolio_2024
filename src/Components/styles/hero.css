@@ -11,7 +11,7 @@
   column-gap: 10%;
   height: 70%;
   scroll-snap-align: start;
-  color: white;
+  color: rgba(255, 255, 255, 0.807);
   align-items: end;
   justify-content: center;
   /* Media query for smaller screens */
@@ -34,6 +34,7 @@
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     margin: 0;
+    padding-bottom: 1px;
   }
 }
 
@@ -53,6 +54,7 @@
   }
   50% {
     transform: translateY(-10px) scale(1.2);
+    color: white;
   }
 }
 .name,
@@ -63,13 +65,16 @@
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     margin: 0;
-    font-size: 1.5em !important;
   }
 }
 .name {
   grid-area: name;
   font-size: 3.75rem;
   letter-spacing: 2px;
+  @media (max-width: 768px) {
+    font-size: 3em !important;
+    line-height: 50%;
+  }
 }
 .currently-seeking {
   grid-area: seeking;
@@ -78,26 +83,38 @@
   letter-spacing: 1px;
   color: var(--secondary-color);
   display: inline-block;
+  @media (max-width: 768px) {
+    font-size: 1.2em !important;
+    margin-block: 0.6rem;
+    padding-top: 1rem;
+  }
 }
 .last-updated {
   grid-area: updated;
   font-size: 1rem;
   color: var(--grey-color);
+  @media (max-width: 768px) {
+    font-size: 1em !important;
+  }
 }
 
 .portfolio-pic {
   grid-area: portrait;
   margin-left: 5rem;
+  opacity: 0.7;
+  box-shadow: 3px 3px 1px white;
   outline: 2px solid white;
+
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     margin: 0;
+    margin-bottom: 0.25rem;
   }
 }
 
 .caret {
   color: white;
-  animation: blink 0.7s infinite alternate;
+  animation: blink 1s infinite linear;
 }
 
 @keyframes blink {
@@ -118,12 +135,13 @@
   gap: 3.5rem;
   width: max-content;
   margin-left: 5rem;
-  padding-bottom: 8rem;
+  padding-block: 8rem;
   transform: scale(1.5);
   transform-origin: center left;
   @media (max-width: 768px) {
     margin-left: 0 !important;
-    transform: none; /* Remove the transformation */
+    margin-top: 1rem;
+    transform-origin: center;
     padding: 0;
   }
 }
