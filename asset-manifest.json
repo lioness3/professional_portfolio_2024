@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional_portfolio_2024/static/css/main.23907e25.css",
-    "main.js": "/professional_portfolio_2024/static/js/main.f14241a2.js",
+    "main.css": "/professional_portfolio_2024/static/css/main.700c3d2d.css",
+    "main.js": "/professional_portfolio_2024/static/js/main.475cb681.js",
     "static/js/453.343a9aeb.chunk.js": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js",
     "static/media/hireMe.png": "/professional_portfolio_2024/static/media/hireMe.16e0c4e4b0edb404ce83.png",
     "static/media/portfolioMockUp.png": "/professional_portfolio_2024/static/media/portfolioMockUp.49ce40bf96f9eb9e5508.png",
@@ -42,12 +42,12 @@
     "index.html": "/professional_portfolio_2024/index.html",
     "static/media/thermostat.svg": "/professional_portfolio_2024/static/media/thermostat.fd29710a6c6f18a2efb5e5047073b6f7.svg",
     "static/media/css-3.svg": "/professional_portfolio_2024/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.23907e25.css.map": "/professional_portfolio_2024/static/css/main.23907e25.css.map",
-    "main.f14241a2.js.map": "/professional_portfolio_2024/static/js/main.f14241a2.js.map",
+    "main.700c3d2d.css.map": "/professional_portfolio_2024/static/css/main.700c3d2d.css.map",
+    "main.475cb681.js.map": "/professional_portfolio_2024/static/js/main.475cb681.js.map",
     "453.343a9aeb.chunk.js.map": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23907e25.css",
-    "static/js/main.f14241a2.js"
+    "static/css/main.700c3d2d.css",
+    "static/js/main.475cb681.js"
   ]
 }
