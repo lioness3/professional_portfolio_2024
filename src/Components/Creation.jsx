@@ -83,6 +83,9 @@ export default function Creation({
           </a>
         </div>
       ) : null}
+      <div className="bottom-buttons">
+        <AiFillCloseCircle className="close-btn-btm" onClick={onClose} />
+      </div>
     </div>
   );
 }
