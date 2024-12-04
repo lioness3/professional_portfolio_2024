@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional_portfolio_2024/static/css/main.923f063b.css",
-    "main.js": "/professional_portfolio_2024/static/js/main.3ad24c60.js",
+    "main.css": "/professional_portfolio_2024/static/css/main.f20683b7.css",
+    "main.js": "/professional_portfolio_2024/static/js/main.c51ff296.js",
     "static/js/453.343a9aeb.chunk.js": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js",
     "static/media/hireMe.png": "/professional_portfolio_2024/static/media/hireMe.16e0c4e4b0edb404ce83.png",
     "static/media/portfolioMockUp.png": "/professional_portfolio_2024/static/media/portfolioMockUp.49ce40bf96f9eb9e5508.png",
@@ -15,6 +15,7 @@
     "static/media/truck.png": "/professional_portfolio_2024/static/media/truck.abded4a1d7274a5fabd0.png",
     "static/media/portfolioMockUp2.png": "/professional_portfolio_2024/static/media/portfolioMockUp2.4bf118e755af0e0d7af9.png",
     "static/media/portfolioMockUp3.png": "/professional_portfolio_2024/static/media/portfolioMockUp3.c37d6b8716e03f2a05bc.png",
+    "static/media/construction.png": "/professional_portfolio_2024/static/media/construction.b847f52e15ef3276d9af.png",
     "static/media/headshot.png": "/professional_portfolio_2024/static/media/headshot.5eb2a7de07332e6c73f9.png",
     "static/media/OHC2.png": "/professional_portfolio_2024/static/media/OHC2.51e0a708b82e0103faee.png",
     "static/media/azZip3.png": "/professional_portfolio_2024/static/media/azZip3.39519a36af47178923a8.png",
@@ -42,12 +43,12 @@
     "index.html": "/professional_portfolio_2024/index.html",
     "static/media/thermostat.svg": "/professional_portfolio_2024/static/media/thermostat.fd29710a6c6f18a2efb5e5047073b6f7.svg",
     "static/media/css-3.svg": "/professional_portfolio_2024/static/media/css-3.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.923f063b.css.map": "/professional_portfolio_2024/static/css/main.923f063b.css.map",
-    "main.3ad24c60.js.map": "/professional_portfolio_2024/static/js/main.3ad24c60.js.map",
+    "main.f20683b7.css.map": "/professional_portfolio_2024/static/css/main.f20683b7.css.map",
+    "main.c51ff296.js.map": "/professional_portfolio_2024/static/js/main.c51ff296.js.map",
     "453.343a9aeb.chunk.js.map": "/professional_portfolio_2024/static/js/453.343a9aeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.923f063b.css",
-    "static/js/main.3ad24c60.js"
+    "static/css/main.f20683b7.css",
+    "static/js/main.c51ff296.js"
   ]
 }
